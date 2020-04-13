@@ -29,7 +29,7 @@ cin>> x >> b >> c;
 a[i].score = x+b+c;
     }
 
-    sort(A.begin(), A.end(), comp);
+    sort(a.begin(), a.end(), comp);
     for (int i = 0; i < n; i++) {
     cout<< a[i].Name << " " << a[i].Surname << endl;
     }
